@@ -9,5 +9,9 @@ url =  main_api + urllib.parse.urlencode({'address': address})
 
 json_data = requests.get(url).json()
 
-json_status =  json_data['status']
+print(json_data)
+
+json_status =  json_data['long_name']
+
+
 print('API Status: ' + json_status)
