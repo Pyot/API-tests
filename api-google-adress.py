@@ -4,7 +4,6 @@ import json
 
 main_api ='http://maps.googleapis.com/maps/api/geocode/json?'
 
-address = 'czestochowa halo'
 
 while True:
     address = input('Address: ')
